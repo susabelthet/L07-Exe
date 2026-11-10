@@ -1,20 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// App.js
+// import App from './exercises/Ex1';
+//import App from './exercises/Ex2';
+// import App from './exercises/Ex3A';
+// import App from './exercises/Ex3B';
+// import App from './exercises/Ex3C';
+// import App from './exercises/Ex3D';
+// import App from './exercises/Ex3E';
+import App from './exercises/Ex4';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
